@@ -351,6 +351,13 @@ header{
 }
 
 #pj-1{
+    background: url(images/Captura_de_tela_2024-08-15_021557.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#pj-2{
     background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6W60pti7XdZsG72ViDNTD1DrPxgFkobskIQ&s);
     background-position: center;
     background-repeat: no-repeat;
