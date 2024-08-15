@@ -1,0 +1,358 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&family=Oswald&family=Quicksand:wght@300..700&family=Roboto+Condensed&family=Space+Mono&display=swap');
+
+body{
+
+    display: flex;
+
+    margin: 0;
+
+    background-color: #010110;
+
+
+}
+
+p, a{
+    margin: 0;
+    text-decoration: none;
+}
+
+/* menu */
+
+header{
+    width: 100%;
+    height: 6.5rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: fixed;
+
+    top: 0;
+    z-index: 999999999999999999999;
+
+    border-bottom: 0.1px solid gray;
+    backdrop-filter: blur(0.5rem);
+
+    background-color: transparent;
+}
+
+.div-logo{
+    width: 20%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.div-btns{
+    width: 40%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-talk{
+    width: 20%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+}
+
+.btn-talks{
+    width: 9rem;
+    height: 3.5rem;
+
+    font-family: 'Oswald';
+    font-size: 1.2rem;
+    color: white;
+
+    border: none;
+    border-radius: 0.3rem;
+
+    transition: all, 0.2s ease;
+    
+    cursor: pointer;
+
+    background-color: #442cda;
+}
+
+.btn-talks:hover{
+    background-color: #3f2ac7;
+}
+
+.btn-menu{
+    width: auto;
+    height: auto;
+
+    font-family: 'Oswald';
+    font-size: 1.5rem;
+    color: white;
+
+    margin: auto 1rem;
+    border: none;
+
+    cursor: pointer;
+
+    transition: all, 0.2s ease;
+
+    background-color: transparent;
+}
+
+.btn-menu:hover{
+    background-color: gray;
+}
+
+#logo{
+    width: auto;
+
+    margin-top: 3rem;
+}
+
+/* conteudo */
+
+.container{
+    width: 70%;
+    height: auto;
+
+    margin-top: 12rem;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.centralizar{
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.zone{
+    width: 100%;
+    height: auto;
+
+    margin: auto;
+
+}
+
+/* textos */
+
+.subtt{
+    width: 100%;
+    height: auto;
+
+    display: flex;
+
+    font-size: 1.2rem;
+    font-family: 'Space Mono';
+    color: #442cda;
+
+    text-align: left;
+
+    letter-spacing: 0.2rem;
+
+    margin: 0;
+}
+
+.ttwork{
+    width: 100%;
+    height: auto;
+
+    display: flex;
+ 
+    font-size: 2.1rem;
+    font-family: 'Roboto Condensed';
+    font-weight: bold;
+    color: White;
+
+    text-align: left;
+
+    margin: 0;
+}
+
+.text-base{
+    width: 60%;
+    height: auto;
+
+    font-family: 'Roboto Condensed';
+    font-size: 1.1rem;
+    color: rgb(171, 171, 171);
+}
+
+/* Apresentação */
+
+.apr{
+    width: 100%;
+    height:28rem;
+}
+
+.apr-txt{
+    font-family: 'Roboto Condensed';
+    font-size: 6.5rem;
+    color: white;
+
+    font-weight: bold;
+    letter-spacing: 0rem;
+    line-height: 6rem;
+
+    user-select: none;
+
+
+    margin-bottom: 1rem;
+}
+
+.base-tt{
+   background-image: 
+   linear-gradient(to bottom right, #390f66, #5d1ba3, #3723bb, #442CDA);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 0 0 transparent;
+}
+
+.btn-work{
+    width: 9rem;
+    height: 3rem;
+
+    margin-top: 1rem;
+
+    border: 0.15rem solid #442cda;
+    border-radius: 0.3rem;
+
+    font-family: 'Roboto Condensed';
+    font-size: 1.4rem;
+    color: white;
+
+    transition: all, 0.2s ease;
+
+    cursor: pointer;
+    user-select: none;
+
+    background-color: transparent;
+}
+
+.btn-work:hover{
+    color: black;
+    background-color: #442cda;
+}
+
+/* serviços */
+
+.square-pont{
+    width: 18rem;
+    height: 23rem;
+
+    margin: auto;
+
+
+    border-radius: 0.6rem;
+
+    transition: all, 0.2s ease;
+
+    background-color: #242230;
+}
+
+.square-pont:hover{
+    transform: translateY(-1rem);
+}
+
+.title-pont{
+    width: 100%;
+    height: auto;
+
+    font-family: 'Roboto Condensed';
+    font-size: 1.6rem;
+    color: white;
+
+    text-align: center;
+}
+
+.text-bases{
+    width: 90%;
+    height: auto;
+
+    font-family: 'Roboto Condensed';
+    font-size: 1.1rem;
+    color: rgb(171, 171, 171);
+
+    margin: 1rem 1rem auto;
+}
+
+.img-sqare{
+    width: 100%;
+    height: 7rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-square{
+    width: auto;
+    height: 80%;
+}
+
+/* trabalhos */
+
+.square-mold{
+    width: 21rem;
+    height: 21rem;
+
+    margin: 2rem 1rem 0 0;
+
+    display: flex;
+    align-items: end;
+
+    border-radius: 0.6rem;
+
+    transition: all, 0.2s ease;
+}
+
+.bar{
+    width: 100%;
+    height: 0;
+
+    overflow-y: hidden;
+    transition: height, 0.2s ease;
+
+    display: flex;
+    align-items: center;
+
+    font-family: 'Roboto Condensed';
+    font-size: 1.2rem;
+    color: white;
+    text-align: left;
+    font-weight: bold;
+
+    border-radius: 0 0 0.6rem 0.6rem;
+
+    background-color: rgba(136, 136, 136, 0.659);
+}
+
+.square-mold:hover{
+    transform: translateY(-1rem);
+    box-shadow: 0rem 0rem 0.7em rgba(255, 255, 255, 0.234);
+}
+
+.square-mold:hover .bar{
+    height: 3.5rem;
+    backdrop-filter: blur(0.5rem);
+}
+
+.bar-t{
+    margin-left: 2rem;
+}
+
+#pj-1{
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6W60pti7XdZsG72ViDNTD1DrPxgFkobskIQ&s);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
