@@ -37,6 +37,14 @@ header{
     background-color: transparent;
 }
 
+.hamburger{
+    display: none;
+}
+
+nav{
+    display: none;
+}
+
 .div-logo{
     width: 20%;
     height: 100%;
@@ -91,20 +99,24 @@ header{
 
     font-family: 'Oswald';
     font-size: 1.5rem;
-    color: white;
+    color: rgb(203, 203, 203);
 
     margin: auto 1rem;
     border: none;
 
     cursor: pointer;
 
+    border-radius: 2rem;
     transition: all, 0.2s ease;
 
     background-color: transparent;
 }
 
 .btn-menu:hover{
-    background-color: gray;
+    border-radius: 2rem;
+    color: white;
+    text-shadow: 0 0 0.2rem rgba(255, 255, 255, 0.558);
+    background-color: rgba(203, 203, 203, 0.393);
 }
 
 #logo{
@@ -362,4 +374,168 @@ header{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+@media only screen and (max-width: 768px){
+    header{
+        display: none;
+    }
+
+    .container{
+        width: 100%;
+
+        margin-top: 5rem;
+    }
+
+    .zone{
+        height: auto;
+    }
+
+    .apr{
+        height: auto;
+
+        margin: 0;
+    }
+
+    .apr-txt{
+        font-size: 4rem;
+
+        line-height: 3.5rem;
+        
+        text-align: center;
+
+    }
+
+    .subtt{
+        margin-top: 2rem;
+    }
+
+    .ttwork{
+        margin-top: 1rem;
+    }
+
+    
+    .btn-work{
+        margin-top: 1rem;
+        margin-left: 30%;
+    }
+
+    .text-base{
+        width: 80%;
+
+        margin: auto;
+        margin-top: 1rem;
+        text-align: center;
+    }
+
+    .text-bases{
+        width: 80%;
+
+        margin: auto;
+        text-align: center;
+    }
+
+    .square-pont{
+        width: 85%;
+        height: 19rem;
+
+        margin-top: 3rem;
+    }
+
+    .img-sqare{
+        height: 4rem;
+    }
+
+    .img-square{
+        height: 80%;
+        margin: 0;
+    }
+
+    .centralizar{
+        display: inline-block;
+    }
+
+    .square-mold{
+        margin: auto;
+
+        margin-top: 3rem;
+    }
+
+    /* menu cell */
+
+    .hamburger {
+        position: fixed;
+        top: 20px;
+        left: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 30px;
+        height: 20px;
+        cursor: pointer;
+        z-index: 1001; /* Certifique-se de que o botão fique acima do menu */
+    }
+
+    .hamburger .bar {
+        height: 3px;
+        width: 100%;
+        background-color: #333;
+        border-radius: 2px;
+        transition: 0.3s;
+    }
+
+    .sidebar {
+        position: fixed;
+        top: 0;
+        left: -250px; /* Inicialmente fora da tela */
+        width: 250px;
+        height: 100%;
+
+        padding-top: 60px;
+        transition: left 0.3s;
+        z-index: 1000; /* Certifique-se de que o menu fique acima do conteúdo principal */
+
+        backdrop-filter: blur(0.6rem);
+        background-color: transparent;
+    }
+
+    .sidebar ul {
+        list-style-type: none;
+        padding-left: 20px;
+    }
+
+
+    .sidebar ul li {
+        margin: 20px 0;
+    }
+
+    .sidebar ul li a {
+        font-family: 'Oswald';
+        font-size: 1.5rem;
+        color: white;
+
+        text-decoration: none;
+        font-size: 18px;
+        display: block;
+    }
+
+    /*ativo */
+
+    .sidebar.active {
+        left: 0;
+    }
+
+    /* Transições do botão hambúrguer ao abrir o menu */
+    .sidebar.active + .hamburger .bar:nth-child(1) {
+        transform: rotate(45deg) translateY(7px);
+    }
+
+    .sidebar.active + .hamburger .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .sidebar.active + .hamburger .bar:nth-child(3) {
+        transform: rotate(-45deg) translateY(-7px);
+    }
+
 }
