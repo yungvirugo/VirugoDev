@@ -1,13 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="images/d375d9b2dad54cf6bb1fca72d64330d3-free-removebg-preview.png">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="icon" href="/images/d375d9b2dad54cf6bb1fca72d64330d3-free-removebg-preview.png">
     <title>VirugoDev</title>
 </head>
 <body>
+
+    <!--#Menucell-->
+    <div class="hamburger" onclick="toggleMenu()">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+    </div>
+
+    <nav id="sidebar" class="sidebar">
+        <ul>
+            <li><a href="#home" class="scroll-link">Home</a></li>
+            <li><a href="#servico" class="scroll-link">Serviços</a></li>
+            <li><a href="#Portifolio" class="scroll-link">Portifólio</a></li>
+            <li><a href="#" class="scroll-link">Faqs</a></li>
+        </ul>
+    </nav>
+
+    <!-- #menucell -->
+
     <header>
         <div class="div-logo">
             <img src="images/d375d9b2dad54cf6bb1fca72d64330d3-free-removebg-preview.png" alt="" id="logo">
@@ -176,6 +195,8 @@
     
     </div>
 
+
+
     <script>
         // Função para rolar suavemente até um elemento
         function scrollToElement(elementId) {
@@ -193,6 +214,11 @@
             scrollToElement(targetId);
         });
         });
+
+        function toggleMenu() {
+            const sidebar = document.getElementById('sidebar');
+            sidebar.classList.toggle('active');
+        }
 
     </script>
 
