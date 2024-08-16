@@ -37,13 +37,7 @@ header{
     background-color: transparent;
 }
 
-.hamburger{
-    display: none;
-}
 
-nav{
-    display: none;
-}
 
 .div-logo{
     width: 20%;
@@ -468,7 +462,6 @@ nav{
     }
 
     .hamburger {
-        display: block;
         position: fixed;
         top: 20px;
         left: 20px;
