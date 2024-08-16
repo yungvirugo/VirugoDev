@@ -364,13 +364,41 @@ header{
 }
 
 #pj-2{
-    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6W60pti7XdZsG72ViDNTD1DrPxgFkobskIQ&s);
+    background: url('#');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-@media only screen and (max-width: 768px){
+#pj-3{
+    background: url('#');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#pj-4{
+    background: url('#');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#pj-5{
+    background: url('#');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#pj-6{
+    background: url('#');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media only screen and (max-width: 1471px){
     header{
         display: none;
     }
@@ -402,10 +430,15 @@ header{
 
     .subtt{
         margin-top: 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
-    .ttwork{
-        margin-top: 1rem;
+    .ttwork {
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     
@@ -416,6 +449,7 @@ header{
 
     .text-base{
         width: 80%;
+        height: auto;
 
         margin: auto;
         margin-top: 1rem;
@@ -424,14 +458,16 @@ header{
 
     .text-bases{
         width: 80%;
+        height: auto;
 
         margin: auto;
         text-align: center;
     }
 
     .square-pont{
-        width: 85%;
-        height: 19rem;
+        max-width: 85%;
+        min-width:60%;
+        height: auto;
 
         margin-top: 3rem;
     }
@@ -453,6 +489,10 @@ header{
         margin: auto;
 
         margin-top: 3rem;
+    }
+
+    .btn-work{
+        display: none;
     }
 
     /* menu cell */
