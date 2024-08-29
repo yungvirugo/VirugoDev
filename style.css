@@ -389,6 +389,8 @@ header{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+
+    display: none;
 }
 
 #pj-6{
@@ -396,6 +398,8 @@ header{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+
+    display:none;
 }
 
 @media only screen and (max-width: 1471px){
