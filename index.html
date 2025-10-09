@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -13,12 +12,6 @@
 <body>
 
     <!--#Menucell-->
-    <div class="hamburger" onclick="toggleMenu()">
-        <div class="bar"></div>
-        <div class="bar"></div>
-        <div class="bar"></div>
-    </div>
-
     <nav id="sidebar" class="sidebar">
         <ul>
             <li><a href="#home" class="scroll-link">Home</a></li>
@@ -28,6 +21,12 @@
             <li><a href="#faqs" class="scroll-link">Faqs</a></li>
         </ul>
     </nav>
+
+    <div class="hamburger" onclick="toggleMenu()">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+    </div>
 
     <!-- #menucell -->
 
@@ -363,7 +362,7 @@
         });
 
         function toggleMenu() {
-            const sidebar = document.getElementById('sidebar');
+            const sidebar = document.querySelector('.sidebar');
             sidebar.classList.toggle('active');
         }
 

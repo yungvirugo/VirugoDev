@@ -37,7 +37,8 @@ header {
 }
 
 .sidebar {
-    display: none;
+    color: #010110;
+    text-decoration: none;
 }
 
 
@@ -555,7 +556,7 @@ footer {
         height: auto;
     }
 
-    .apresentacao{
+    .apresentacao {
         flex-wrap: wrap;
         height: auto;
 
@@ -599,7 +600,7 @@ footer {
         margin: 0;
     }
 
-    .card{
+    .card {
         margin: auto;
     }
 
@@ -662,7 +663,7 @@ footer {
         margin-top: 5rem;
     }
 
-    .space{
+    .space {
         height: 5rem;
     }
 
@@ -670,7 +671,7 @@ footer {
         display: none;
     }
 
-    .btn-link{
+    .btn-link {
         margin-left: 10%;
         margin-top: 5rem;
     }
@@ -712,9 +713,8 @@ footer {
         height: 100%;
 
         padding-top: 60px;
-        transition: left 0.3s;
+        transition: left 0.3s ease;
         z-index: 1000;
-        /* Certifique-se de que o menu fique acima do conteúdo principal */
 
         backdrop-filter: blur(0.6rem);
         background-color: transparent;
@@ -746,8 +746,9 @@ footer {
         left: 0;
     }
 
+
     /* Transições do botão hambúrguer ao abrir o menu */
-    .sidebar.active+.hamburger .bar:nth-child(1) {
+    .sidebar.active .hamburger .bar:nth-child(1) {
         transform: rotate(45deg) translateY(7px);
     }
 
