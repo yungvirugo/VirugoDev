@@ -111,17 +111,9 @@ header {
 }
 
 .btn-menu:hover {
-    font-size: 1rem;
-    width: 5rem;
-    height: 6rem;
-    border-radius: 2rem;
+
     color: white;
     text-shadow: 0 0 0.2rem rgba(255, 255, 255, 0.558);
-    background-color: rgba(203, 203, 203, 0.393);
-
-    display: flex;
-    align-items: flex;
-    justify-content: center;
 
     align-items: center;
 }
@@ -447,7 +439,7 @@ header {
     height: 0;
 
     overflow-y: hidden;
-    transition: height, 0.2s ease;
+    transition: all 0.2s ease;
 
     display: flex;
     align-items: center;
@@ -544,6 +536,10 @@ footer {
 @media only screen and (max-width: 1471px) {
     header {
         display: none;
+    }
+
+    .btn-talks{
+        height: 2.5rem;
     }
 
     .container {
@@ -699,7 +695,7 @@ footer {
     .hamburger .bar {
         height: 3.001px;
         width: 100%;
-        background-color: #333;
+        background-color: #ffffff;
         border-radius: 2px;
         transition: 0.3s;
     }
@@ -717,7 +713,7 @@ footer {
         z-index: 1000;
 
         backdrop-filter: blur(0.6rem);
-        background-color: transparent;
+        background-color: #0000004b;
     }
 
     .sidebar ul {
@@ -746,18 +742,21 @@ footer {
         left: 0;
     }
 
+    
+
 
     /* Transições do botão hambúrguer ao abrir o menu */
-    .sidebar.active .hamburger .bar:nth-child(1) {
-        transform: rotate(45deg) translateY(7px);
-    }
+.sidebar.active ~ .hamburger .bar:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+}
 
-    .sidebar.active+.hamburger .bar:nth-child(2) {
-        opacity: 0;
-    }
+.sidebar.active ~ .hamburger .bar:nth-child(2) {
+  opacity: 0;
+}
 
-    .sidebar.active+.hamburger .bar:nth-child(3) {
-        transform: rotate(-45deg) translateY(-7px);
-    }
+.sidebar.active ~ .hamburger .bar:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+}
+
 
 }

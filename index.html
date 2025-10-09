@@ -16,9 +16,11 @@
         <ul>
             <li><a href="#home" class="scroll-link">Home</a></li>
             <li><a href="#servico" class="scroll-link">Serviços</a></li>
-            <li><a href="#funcoes" class="scrll-link">Funções</a></li>
+            <li><a href="#funcoes" class="scroll-link">Funções</a></li>
             <li><a href="#Portifolio" class="scroll-link">Portifólio</a></li>
             <li><a href="#faqs" class="scroll-link">Faqs</a></li>
+
+            <li><a href="https://linktr.ee/virugodev"><button class="btn-talks">Vamos Conversar</button></a></li>
         </ul>
     </nav>
 
@@ -113,7 +115,7 @@
                         necessidades.</p>
                 </div>
             </div>
-            <a href="#" class="#"><button class="btn-link">QUERO FAZER MEU SITE</button></a>
+            <a href="#" class=""><button class="btn-link">QUERO FAZER MEU SITE</button></a>
         </div>
 
         <div class="space">.</div>
@@ -360,11 +362,28 @@
                 scrollToElement(targetId);
             });
         });
-
         function toggleMenu() {
             const sidebar = document.querySelector('.sidebar');
+            const hamburger = document.querySelector('.hamburger');
+
             sidebar.classList.toggle('active');
+
+            // Detecta clique fora
+            function handleClickOutside(e) {
+                if (!sidebar.contains(e.target) && !hamburger.contains(e.target)) {
+                    sidebar.classList.remove('active');
+                    document.removeEventListener('click', handleClickOutside);
+                }
+            }
+
+            // Só adiciona o listener quando o menu é aberto
+            if (sidebar.classList.contains('active')) {
+                setTimeout(() => { // pequena espera para não fechar no mesmo clique
+                    document.addEventListener('click', handleClickOutside);
+                }, 100);
+            }
         }
+
 
     </script>
 
