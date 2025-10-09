@@ -555,31 +555,49 @@ footer{
     }
 
     .apr {
+        width: 100%;
         height: auto;
 
         margin: 0;
     }
 
     .apr-txt {
-        font-size: 4rem;
 
-        line-height: 3.5rem;
+        width: 90%;
+        font-size: 2.4rem;
 
-        text-align: center;
+        line-height: 2rem;
+        margin: auto;
+
+        text-align: left;
 
     }
 
     .subtt {
+
+        margin: auto;
         margin-top: 2rem;
         display: flex;
         align-items: center;
         justify-content: center;
+
+        font-size: 1.5rem;
+
+        
+
+        width: 90%;
     }
 
     .ttwork {
         display: flex;
         align-items: center;
         justify-content: center;
+
+        margin: 0;
+    }
+
+    .card{
+        margin: auto;
     }
 
 
@@ -627,6 +645,9 @@ footer{
     }
 
     .square-mold {
+
+        width: 70%;
+        height: 15rem;
         margin: auto;
 
         margin-top: 3rem;
@@ -634,6 +655,11 @@ footer{
 
     .btn-work {
         display: none;
+    }
+
+    .btn-link{
+        margin-top: 3rem;
+        margin-left: 10%;
     }
 
     /* menu cell */
@@ -718,6 +744,17 @@ footer{
 
     .sidebar.active+.hamburger .bar:nth-child(3) {
         transform: rotate(-45deg) translateY(-7px);
+    }
+
+    .skills{
+        width: 100%;
+        display: block;
+
+        
+    }
+
+    .imgs-skills{
+        margin: 1rem;
     }
 
 }
