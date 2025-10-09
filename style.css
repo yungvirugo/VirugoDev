@@ -36,10 +36,7 @@ header {
     background-color: transparent;
 }
 
-.sidebar {
-    color: #010110;
-    text-decoration: none;
-}
+
 
 
 
@@ -533,6 +530,10 @@ footer {
     background-color: #242230;
 }
 
+.sidebar {
+    display: none;
+}
+
 @media only screen and (max-width: 1471px) {
     header {
         display: none;
@@ -707,6 +708,8 @@ footer {
         /* Inicialmente fora da tela */
         width: 250px;
         height: 100%;
+
+        display: block;
 
         padding-top: 60px;
         transition: left 0.3s ease;
