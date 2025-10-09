@@ -657,7 +657,7 @@ footer{
     }
 
     .hamburger .bar {
-        height: 3px;
+        height: 3.001px;
         width: 100%;
         background-color: #333;
         border-radius: 2px;
