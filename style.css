@@ -36,7 +36,7 @@ header {
     background-color: transparent;
 }
 
-.sidebar{
+.sidebar {
     display: none;
 }
 
@@ -190,13 +190,14 @@ header {
 
 }
 
-.imgs-skills{
+.imgs-skills {
     width: auto;
     height: 5.5rem;
 
     margin: auto 1rem;
 
 }
+
 /* textos */
 
 .subtt {
@@ -521,7 +522,7 @@ header {
     display: none;
 }
 
-footer{
+footer {
     width: 100%;
     height: 4rem;
 
@@ -554,18 +555,30 @@ footer{
         height: auto;
     }
 
+    .apresentacao{
+        flex-wrap: wrap;
+        height: auto;
+
+        margin-top: 3rem;
+    }
+
     .apr {
         height: auto;
 
         margin: 0;
+
+        width: 100%;
     }
 
     .apr-txt {
-        font-size: 4rem;
+        font-size: 3.0rem;
 
-        line-height: 3.5rem;
+        line-height: 3.2rem;
 
-        text-align: center;
+        text-align: left;
+
+        margin: auto;
+        width: 80%;
 
     }
 
@@ -574,12 +587,20 @@ footer{
         display: flex;
         align-items: center;
         justify-content: center;
+
+        font-size: 2rem;
     }
 
     .ttwork {
         display: flex;
         align-items: center;
         justify-content: center;
+
+        margin: 0;
+    }
+
+    .card{
+        margin: auto;
     }
 
 
@@ -630,10 +651,28 @@ footer{
         margin: auto;
 
         margin-top: 3rem;
+
+        width: 80%;
+        height: 14rem;
+    }
+
+    .skills {
+        flex-wrap: wrap;
+        height: auto;
+        margin-top: 5rem;
+    }
+
+    .space{
+        height: 5rem;
     }
 
     .btn-work {
         display: none;
+    }
+
+    .btn-link{
+        margin-left: 10%;
+        margin-top: 5rem;
     }
 
     /* menu cell */
@@ -721,4 +760,3 @@ footer{
     }
 
 }
-
