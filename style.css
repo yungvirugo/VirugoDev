@@ -734,18 +734,19 @@ footer{
     .sidebar.active {
         left: 0;
         display: block;
+        
     }
 
     /* Transições do botão hambúrguer ao abrir o menu */
-    .sidebar.active+.hamburger .bar:nth-child(1) {
+    .sidebar.active + .hamburger .bar:nth-child(1) {
         transform: rotate(45deg) translateY(7px);
     }
 
-    .sidebar.active+.hamburger .bar:nth-child(2) {
+    .sidebar.active + .hamburger .bar:nth-child(2) {
         opacity: 0;
     }
 
-    .sidebar.active+.hamburger .bar:nth-child(3) {
+    .sidebar.active + .hamburger .bar:nth-child(3) {
         transform: rotate(-45deg) translateY(-7px);
     }
 
