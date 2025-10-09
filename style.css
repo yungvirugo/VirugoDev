@@ -698,6 +698,8 @@ footer{
         width: 250px;
         height: 100%;
 
+        display: none;
+
         padding-top: 60px;
         transition: left 0.3s;
         z-index: 1000;
@@ -731,6 +733,7 @@ footer{
 
     .sidebar.active {
         left: 0;
+        display: block;
     }
 
     /* Transições do botão hambúrguer ao abrir o menu */
