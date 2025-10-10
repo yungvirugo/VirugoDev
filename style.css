@@ -352,6 +352,9 @@ header {
     cursor: pointer;
     user-select: none;
 
+    margin-left: 35%;
+    margin-top: 5rem;
+
     background-color: transparent;
 }
 
@@ -399,6 +402,22 @@ header {
     color: rgb(171, 171, 171);
 
 
+}
+
+.text-based{
+    width: 50%;
+
+    font-family: 'Roboto Condensed';
+    font-size: 1.5rem;
+    color: white;
+
+    margin-left: 5rem;
+    margin-top: 1rem;
+}
+
+.text-based p{
+    margin-top: 2rem;
+    line-height: 1.9rem;
 }
 
 .img-sqare {
@@ -467,7 +486,7 @@ header {
 }
 
 #pj-1 {
-    background: url('images/musicpj.png');
+    background: url('images/clicksperfeito.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -558,6 +577,19 @@ footer {
         height: auto;
 
         margin-top: 3rem;
+    }
+
+    .text-based{
+        width: 90%;
+
+        text-align: center;
+        font-size: 1.3rem;
+        margin: auto;
+    }
+
+    .text-based p{
+        margin-top: 1rem;
+        line-height: 1.6rem;
     }
 
     .apr {
