@@ -404,7 +404,7 @@ header {
 
 }
 
-.text-based{
+.text-based {
     width: 50%;
 
     font-family: 'Roboto Condensed';
@@ -415,7 +415,7 @@ header {
     margin-top: 1rem;
 }
 
-.text-based p{
+.text-based p {
     margin-top: 2rem;
     line-height: 1.9rem;
 }
@@ -558,7 +558,31 @@ footer {
         display: none;
     }
 
-    .btn-talks{
+    .headermobile {
+        width: 100%;
+        height: 4.5rem;
+        position: fixed;
+
+        display: flex;
+        align-items: center;
+        justify-content: end;
+
+        top: 0;
+
+        z-index: 999999999999999999999;
+
+        backdrop-filter: blur(0.6rem);
+        background-color: #000000d3;
+    }
+
+    .header-logo {
+        height: 8rem;
+        margin-right: auto;
+        margin-top: 2.25rem;
+        margin-left: 0rem;
+    }
+
+    .btn-talks {
         height: 2.5rem;
     }
 
@@ -576,10 +600,10 @@ footer {
         flex-wrap: wrap;
         height: auto;
 
-        margin-top: 3rem;
+        margin-top: 5rem;
     }
 
-    .text-based{
+    .text-based {
         width: 90%;
 
         text-align: center;
@@ -587,7 +611,7 @@ footer {
         margin: auto;
     }
 
-    .text-based p{
+    .text-based p {
         margin-top: 1rem;
         line-height: 1.6rem;
     }
@@ -712,9 +736,8 @@ footer {
     }
 
     .hamburger {
-        position: fixed;
-        top: 20px;
-        left: 20px;
+        position: relative;
+        right: 2.3rem;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -736,7 +759,7 @@ footer {
     .sidebar {
         position: fixed;
         top: 0;
-        left: -250px;
+        right: -250px;
         /* Inicialmente fora da tela */
         width: 250px;
         height: 100%;
@@ -744,7 +767,7 @@ footer {
         display: block;
 
         padding-top: 60px;
-        transition: left 0.3s ease;
+        transition: right 0.3s ease;
         z-index: 1000;
 
         backdrop-filter: blur(0.6rem);
@@ -774,24 +797,24 @@ footer {
     /*ativo */
 
     .sidebar.active {
-        left: 0;
+        right: 0;
     }
 
-    
+
 
 
     /* Transições do botão hambúrguer ao abrir o menu */
-.sidebar.active ~ .hamburger .bar:nth-child(1) {
-  transform: translateY(8px) rotate(45deg);
-}
+    .sidebar.active~.hamburger .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
 
-.sidebar.active ~ .hamburger .bar:nth-child(2) {
-  opacity: 0;
-}
+    .sidebar.active~.hamburger .bar:nth-child(2) {
+        opacity: 0;
+    }
 
-.sidebar.active ~ .hamburger .bar:nth-child(3) {
-  transform: translateY(-8px) rotate(-45deg);
-}
+    .sidebar.active~.hamburger .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
 
 
 }

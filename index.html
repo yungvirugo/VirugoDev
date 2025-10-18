@@ -25,10 +25,13 @@
         </ul>
     </nav>
 
-    <div class="hamburger" onclick="toggleMenu()">
-        <div class="bar"></div>
-        <div class="bar"></div>
-        <div class="bar"></div>
+    <div class="headermobile">
+        <img src="/images/d375d9b2dad54cf6bb1fca72d64330d3-free-removebg-preview.png" alt="" class="header-logo">
+        <div class="hamburger" onclick="toggleMenu()">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
     </div>
 
     <!-- #menucell -->
@@ -117,7 +120,8 @@
                         necessidades.</p>
                 </div>
             </div>
-            <a href="https://linktr.ee/virugodev" class=""><button class="btn-link">QUERO SOLICITAR UM ORÇAMENTO</button></a>
+            <a href="https://linktr.ee/virugodev" class=""><button class="btn-link">QUERO SOLICITAR UM
+                    ORÇAMENTO</button></a>
         </div>
 
         <div class="space">.</div>
@@ -242,15 +246,15 @@
                 <p>Sou desenvolvedor web com 5 anos de experiência criando soluções digitais. Tenho como objetivo
                     transformar suas ideias em projetos modernos, únicos e otimizados, garantindo que seu negócio ganhe
                     destaque Online.
-                    </p>
-                    <p> Desenvolvo landing pages, lojas virtuais, blogs, sites institucionais, cardápios digitais e mais.
+                </p>
+                <p> Desenvolvo landing pages, lojas virtuais, blogs, sites institucionais, cardápios digitais e mais.
                     Criando sites personalizados para o seu negócio, mantendo um design único, usabilidade e performace
                     para conectar com seu público. Trabalho com html5, CSS, Javascript, PHP, React, C# e SQL para
                     entregar um projeto de alta qualidade.</p>
-                    <p>Cada um dos projetos é desenvolvido com atenção aos detalhes, responsividade e acessibilidade,
+                <p>Cada um dos projetos é desenvolvido com atenção aos detalhes, responsividade e acessibilidade,
                     garantindo assim um site de ótima aparência e funcional para todos os usuários e dispositivos
                     moveis, oferecendo uma experiência eficiente e intuitiva.</p>
-                    <p>Se você está em busca de um site profissional para o seu negócio e criar sua marca digital para
+                <p>Se você está em busca de um site profissional para o seu negócio e criar sua marca digital para
                     atrair mais clientes, estou pronto para te ajudar com isso. Entre em contato para criar algo
                     incrivel.</p>
             </div>
@@ -372,22 +376,19 @@
 
     </div>
 
-
-
     <script>
-        // Função para rolar suavemente até um elemento
+
         function scrollToElement(elementId) {
             document.getElementById(elementId).scrollIntoView({
                 behavior: 'smooth'
             });
         }
 
-        // Adiciona um evento de clique a todos os links com a classe 'scroll-link'
         const scrollLinks = document.querySelectorAll('.scroll-link');
         scrollLinks.forEach(link => {
             link.addEventListener('click', (e) => {
-                e.preventDefault(); // Impede o comportamento padrão do link
-                const targetId = link.getAttribute('href').substring(1); // Obtém o ID do elemento destino
+                e.preventDefault();
+                const targetId = link.getAttribute('href').substring(1);
                 scrollToElement(targetId);
             });
         });
