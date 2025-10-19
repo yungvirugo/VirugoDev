@@ -514,12 +514,10 @@ header {
 }
 
 #pj-5 {
-    background: url('#');
+    background: url('images/kebradaboyz.jpeg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-
-    display: none;
 }
 
 #pj-6 {
