@@ -513,20 +513,18 @@ header {
     background-size: cover;
 }
 
-#pj-5 {
+#pj {
     background: url('images/kebradaboyz.jpeg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-#pj-6 {
-    background: url('#');
+#pjtester {
+    background: url('images/upb.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-
-    display: none;
 }
 
 footer {
