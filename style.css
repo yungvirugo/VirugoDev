@@ -1,12 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&family=Oswald&family=Quicksand:wght@300..700&family=Roboto+Condensed&family=Space+Mono&display=swap');
-
 body {
-
     margin: 0;
-
     background-color: #010110;
-
-
 }
 
 p,
@@ -15,35 +10,26 @@ a {
     text-decoration: none;
 }
 
+
 /* menu */
 
 header {
     width: 100%;
     height: 6.5rem;
-
     display: flex;
     align-items: center;
     justify-content: center;
-
     position: fixed;
-
     top: 0;
     z-index: 999999999999999999999;
-
     border-bottom: 0.1px solid gray;
     backdrop-filter: blur(0.5rem);
-
     background-color: transparent;
 }
-
-
-
-
 
 .div-logo {
     width: 20%;
     height: 100%;
-
     display: flex;
     align-items: center;
     justify-content: end;
@@ -52,7 +38,6 @@ header {
 .div-btns {
     width: 40%;
     height: 100%;
-
     display: flex;
     align-items: center;
     justify-content: center;
@@ -61,7 +46,6 @@ header {
 .div-talk {
     width: 20%;
     height: 100%;
-
     display: flex;
     align-items: center;
 }
@@ -69,18 +53,13 @@ header {
 .btn-talks {
     width: 9rem;
     height: 3.5rem;
-
     font-family: 'Oswald';
     font-size: 1.2rem;
     color: white;
-
     border: none;
     border-radius: 0.3rem;
-
     transition: all, 0.2s ease;
-
     cursor: pointer;
-
     background-color: #442cda;
 }
 
@@ -91,51 +70,41 @@ header {
 .btn-menu {
     width: auto;
     height: auto;
-
     font-family: 'Oswald';
     font-size: 1.5rem;
     color: rgb(203, 203, 203);
-
     margin: auto 1rem;
     border: none;
-
     cursor: pointer;
-
     border-radius: 2rem;
     transition: all, 0.2s ease;
-
     background-color: transparent;
 }
 
 .btn-menu:hover {
-
     color: white;
     text-shadow: 0 0 0.2rem rgba(255, 255, 255, 0.558);
-
     align-items: center;
 }
 
 #logo {
     width: auto;
-
     margin-top: 3rem;
 }
+
 
 /* conteudo */
 
 .container {
     width: 70%;
     height: auto;
-
     margin-top: 12rem;
     margin: auto;
-
 }
 
 .centralizar {
     width: 100%;
     height: auto;
-
     display: flex;
     align-items: center;
     justify-content: center;
@@ -144,23 +113,16 @@ header {
 .apresentacao {
     width: 100%;
     height: 26rem;
-
     display: flex;
     align-items: center;
     justify-content: center;
-
     margin-top: 6rem;
-
-
 }
-
 
 .zone {
     width: auto;
     height: auto;
-
     scroll-margin-top: 10rem;
-
 }
 
 .space {
@@ -171,55 +133,41 @@ header {
 .skills {
     width: 100%;
     height: 10rem;
-
     margin-top: 5rem;
-
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
 .imgs-skills {
     width: auto;
     height: 5.5rem;
-
     margin: auto 1rem;
-
 }
+
 
 /* textos */
 
 .subtt {
     height: auto;
-
-
     font-size: 2.2rem;
     font-family: 'Space Mono';
     color: #442cda;
-
     text-align: left;
-
     letter-spacing: 0.2rem;
-
     margin-bottom: 5rem;
-
     text-align: center;
 }
 
 .ttwork {
     width: 100%;
     height: auto;
-
     display: flex;
-
     font-size: 2.1rem;
     font-family: 'Roboto Condensed';
     font-weight: bold;
     color: White;
-
     text-align: left;
-
     margin: 0;
     margin-left: 5rem;
 }
@@ -227,19 +175,18 @@ header {
 .text-base {
     width: 60%;
     height: auto;
-
     font-family: 'Roboto Condensed';
     font-size: 1.1rem;
     color: rgb(171, 171, 171);
     margin-left: 5rem;
 }
 
+
 /* Apresentação */
 
 .apr {
     width: 80%;
     height: 28rem;
-
     margin: auto;
 }
 
@@ -247,19 +194,15 @@ header {
     font-family: 'Roboto Condensed';
     font-size: 3.5rem;
     color: white;
-
     font-weight: bold;
     letter-spacing: 0rem;
     line-height: 4rem;
-
     user-select: none;
-
     margin-top: 9rem;
 }
 
 .base-tt {
-    background-image:
-        linear-gradient(to bottom right, #390f66, #5d1ba3, #3723bb, #442CDA);
+    background-image: linear-gradient(to bottom right, #390f66, #5d1ba3, #3723bb, #442CDA);
     background-clip: text;
     -webkit-text-fill-color: transparent;
     text-shadow: 0 0 0 transparent;
@@ -268,21 +211,15 @@ header {
 .btn-work {
     width: 9rem;
     height: 3rem;
-
     margin-top: 1rem;
-
     border: 0.15rem solid #442cda;
     border-radius: 0.3rem;
-
     font-family: 'Roboto Condensed';
     font-size: 1.4rem;
     color: white;
-
     transition: all, 0.2s ease;
-
     cursor: pointer;
     user-select: none;
-
     background-color: transparent;
 }
 
@@ -290,6 +227,7 @@ header {
     color: black;
     background-color: #442cda;
 }
+
 
 /* serviços */
 
@@ -307,7 +245,6 @@ header {
     text-align: left;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
     border-bottom: 4px solid #442cda;
-
     width: 20rem;
     height: auto;
     font-family: 'Roboto Condensed';
@@ -329,7 +266,6 @@ header {
     font-size: 1.4rem;
     color: white;
     line-height: 1.5;
-
     width: 99%;
     margin: auto;
 }
@@ -337,24 +273,17 @@ header {
 .btn-link {
     width: 20rem;
     height: 4rem;
-
     margin-top: 1rem;
-
     border: 0.15rem solid #442cda;
     border-radius: 2rem;
-
     font-family: 'Roboto Condensed';
     font-size: 1.4rem;
     color: white;
-
     transition: all, 0.2s ease;
-
     cursor: pointer;
     user-select: none;
-
     margin-left: 35%;
     margin-top: 5rem;
-
     background-color: transparent;
 }
 
@@ -363,18 +292,12 @@ header {
     background-color: #442cda;
 }
 
-
 .square-pont {
     width: 18rem;
     height: 23rem;
-
     margin: auto;
-
-
     border-radius: 0.6rem;
-
     transition: all, 0.2s ease;
-
     background-color: #242230;
 }
 
@@ -385,32 +308,25 @@ header {
 .title-pont {
     width: 100%;
     height: auto;
-
     font-family: 'Roboto Condensed';
     font-size: 1.4rem;
     color: white;
-
     text-align: center;
 }
 
 .text-bases {
     width: 90%;
     height: auto;
-
     font-family: 'Roboto Condensed';
     font-size: 1.1rem;
     color: rgb(171, 171, 171);
-
-
 }
 
 .text-based {
     width: 50%;
-
     font-family: 'Roboto Condensed';
     font-size: 1.5rem;
     color: white;
-
     margin-left: 5rem;
     margin-top: 1rem;
 }
@@ -423,7 +339,6 @@ header {
 .img-sqare {
     width: 100%;
     height: 3rem;
-
     display: flex;
     align-items: center;
     justify-content: center;
@@ -434,40 +349,32 @@ header {
     height: 80%;
 }
 
+
 /* trabalhos */
 
 .square-mold {
     width: 25rem;
     height: 21rem;
-
     margin: 2rem 1rem 0 0;
-
     display: flex;
     align-items: end;
-
     border-radius: 0.6rem;
-
     transition: all, 0.2s ease;
 }
 
 .bar {
     width: 100%;
     height: 0;
-
     overflow-y: hidden;
     transition: all 0.2s ease;
-
     display: flex;
     align-items: center;
-
     font-family: 'Roboto Condensed';
     font-size: 1.2rem;
     color: white;
     text-align: left;
     font-weight: bold;
-
     border-radius: 0 0 0.6rem 0.6rem;
-
     background-color: rgba(136, 136, 136, 0.659);
 }
 
@@ -521,7 +428,7 @@ header {
 }
 
 #pjtester {
-    background: url('images/upb.png');
+    background: url('images/vbucks.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -530,18 +437,14 @@ header {
 footer {
     width: 100%;
     height: 4rem;
-
     display: flex;
     align-items: center;
     justify-content: center;
-
     margin-top: 3rem;
     border-top: 1rem solid #3723bb;
     backdrop-filter: blur(0.5rem);
-
     color: white;
     font-family: 'Roboto Condensed';
-
     background-color: #242230;
 }
 
@@ -553,184 +456,135 @@ footer {
     header {
         display: none;
     }
-
     .headermobile {
         width: 100%;
         height: 4.5rem;
         position: fixed;
-
         display: flex;
         align-items: center;
         justify-content: end;
-
         top: 0;
-
         z-index: 999999999999999999999;
-
         backdrop-filter: blur(0.6rem);
         background-color: #000000d3;
     }
-
     .header-logo {
         height: 8rem;
         margin-right: auto;
         margin-top: 2.25rem;
         margin-left: 0rem;
     }
-
     .btn-talks {
         height: 2.5rem;
     }
-
     .container {
         width: 100%;
-
         margin-top: 5rem;
     }
-
     .zone {
         height: auto;
     }
-
     .apresentacao {
         flex-wrap: wrap;
         height: auto;
-
         margin-top: 5rem;
     }
-
     .text-based {
         width: 90%;
-
         text-align: center;
         font-size: 1.3rem;
         margin: auto;
     }
-
     .text-based p {
         margin-top: 1rem;
         line-height: 1.6rem;
     }
-
     .apr {
         height: auto;
-
         margin: 0;
-
         width: 100%;
     }
-
     .apr-txt {
         font-size: 3.0rem;
-
         line-height: 3.2rem;
-
         text-align: left;
-
         margin: auto;
         width: 80%;
-
     }
-
     .subtt {
         margin-top: 2rem;
         display: flex;
         align-items: center;
         justify-content: center;
-
         font-size: 2rem;
     }
-
     .ttwork {
         display: flex;
         align-items: center;
         justify-content: center;
-
         margin: 0;
     }
-
     .card {
         margin: auto;
     }
-
-
     .btn-work {
         margin-top: 1rem;
         margin-left: 30%;
     }
-
     .text-base {
         width: 80%;
         height: auto;
-
         margin: auto;
         margin-top: 1rem;
         text-align: center;
     }
-
     .text-bases {
         width: 80%;
         height: auto;
-
         margin: auto;
         text-align: center;
     }
-
     .square-pont {
         max-width: 85%;
         min-width: 60%;
         height: auto;
-
         margin-top: 3rem;
     }
-
     .img-sqare {
         height: 4rem;
     }
-
     .img-square {
         height: 80%;
         margin: 0;
     }
-
     .centralizar {
         display: inline-block;
     }
-
     .square-mold {
         margin: auto;
-
         margin-top: 3rem;
-
         width: 80%;
         height: 14rem;
     }
-
     .skills {
         flex-wrap: wrap;
         height: auto;
         margin-top: 5rem;
     }
-
     .space {
         height: 5rem;
     }
-
     .btn-work {
         display: none;
     }
-
     .btn-link {
         margin-left: 10%;
         margin-top: 5rem;
     }
-
     /* menu cell */
-
     nav {
         display: block;
     }
-
     .hamburger {
         position: relative;
         right: 2.3rem;
@@ -743,7 +597,6 @@ footer {
         z-index: 1001;
         /* Certifique-se de que o botão fique acima do menu */
     }
-
     .hamburger .bar {
         height: 3.001px;
         width: 100%;
@@ -751,7 +604,6 @@ footer {
         border-radius: 2px;
         transition: 0.3s;
     }
-
     .sidebar {
         position: fixed;
         top: 0;
@@ -759,58 +611,40 @@ footer {
         /* Inicialmente fora da tela */
         width: 250px;
         height: 100%;
-
         display: block;
-
         padding-top: 60px;
         transition: right 0.3s ease;
         z-index: 1000;
-
         backdrop-filter: blur(0.6rem);
         background-color: #0000004b;
     }
-
     .sidebar ul {
         list-style-type: none;
         padding-left: 20px;
     }
-
-
     .sidebar ul li {
         margin: 20px 0;
     }
-
     .sidebar ul li a {
         font-family: 'Oswald';
         font-size: 1.5rem;
         color: white;
-
         text-decoration: none;
         font-size: 18px;
         display: block;
     }
-
     /*ativo */
-
     .sidebar.active {
         right: 0;
     }
-
-
-
-
     /* Transições do botão hambúrguer ao abrir o menu */
     .sidebar.active~.hamburger .bar:nth-child(1) {
         transform: translateY(8px) rotate(45deg);
     }
-
     .sidebar.active~.hamburger .bar:nth-child(2) {
         opacity: 0;
     }
-
     .sidebar.active~.hamburger .bar:nth-child(3) {
         transform: translateY(-8px) rotate(-45deg);
     }
-
-
 }
