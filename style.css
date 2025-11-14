@@ -183,7 +183,19 @@ h2 {
         font-family: 'Roboto Condensed';
         font-size: 1.1rem;
         color: rgb(171, 171, 171);
-        margin-left: 5rem;
+        margin: auto;
+        margin-top: 2rem;
+
+        text-align: center;
+    }
+
+    .center{
+        width: 100%;
+        height: auto;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
 
@@ -204,6 +216,7 @@ h2 {
         line-height: 4rem;
         user-select: none;
         margin-top: 9rem;
+        text-align: center;
     }
 
     .base-tt {
@@ -211,6 +224,7 @@ h2 {
         background-clip: text;
         -webkit-text-fill-color: transparent;
         text-shadow: 0 0 0 transparent;
+        
     }
 
     .btn-work {
@@ -226,6 +240,8 @@ h2 {
         cursor: pointer;
         user-select: none;
         background-color: transparent;
+
+        margin-bottom: 2rem;
     }
 
     .btn-work:hover {
@@ -845,7 +861,7 @@ h2 {
     .apr-txt {
         font-size: 3.0rem;
         line-height: 3.2rem;
-        text-align: left;
+        text-align: center;
         margin: auto;
         width: 90%;
         height: auto;
