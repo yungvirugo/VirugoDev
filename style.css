@@ -555,6 +555,8 @@ h2 {
         border-radius: 6px;
         color: #fff;
 
+        resize: none;
+
         font-family: 'Roboto Condensed';
     }
 
