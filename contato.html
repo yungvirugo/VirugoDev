@@ -15,13 +15,13 @@
     <!--#Menucell-->
     <nav id="sidebar" class="sidebar">
         <ul>
-            <li><a href="/index.html#home" >Home</a></li>
-            <li><a href="/index.html#servico" >Serviços</a></li>
-            <li><a href="planos.html" >Planos</a></li>
+            <li><a href="/index.html#home">Home</a></li>
+            <li><a href="/index.html#servico">Serviços</a></li>
+            <li><a href="planos.html">Planos</a></li>
             <li><a href="/index.html#funcoes" ">Funções</a></li>
-            <li><a href="/index.html#sobremim" >Sobre-mim</a></li>
-            <li><a href="/index.html#Portifolio" >Portifólio</a></li>
-            <li><a href="/index.html#faqs" >Faqs</a></li>
+            <li><a href=" /index.html#sobremim">Sobre-mim</a></li>
+            <li><a href="/index.html#Portifolio">Portifólio</a></li>
+            <li><a href="/index.html#faqs">Faqs</a></li>
 
             <li><a href="contato.html"><button class="btn-talks">Vamos Conversar</button></a></li>
         </ul>
@@ -45,7 +45,7 @@
         <div class="div-btns">
             <a href="index.html" class="scroll-link"><button class="btn-menu">Home</button></a>
             <a href="index.html#servico" class="scroll-link"><button class="btn-menu">Serviços</button></a>
-            <a href="planos.html" ><button class="btn-menu">Planos</button></a>
+            <a href="planos.html"><button class="btn-menu">Planos</button></a>
             <a href="index.html#funcoes" class="scroll-link"><button class="btn-menu">Funções</button></a>
             <a href="index.html#sobremim" class="scroll-link"><button class="btn-menu">Sobre-mim</button></a>
             <a href="index.html#Portifolio" class="scroll-link"><button class="btn-menu">Portifólio</button></a>
@@ -57,7 +57,8 @@
     </header>
 
     <div class="container">
-        <a href="index.html"><button class="back">< Voltar para Home</button></a>
+        <a href="index.html"><button class="back">
+                < Voltar para Home</button></a>
         <h1 class="titulor">Entre em contato</h1>
         <h2 class="suberto">Estamos prontos para ajudar a impulsionar seu negócio. Preencha o formulário abaixo ou use
             um de nossos canais de contato.</h2>
@@ -75,15 +76,16 @@
                     <input type="email" name="email" placeholder="seu@email.com" required>
 
                     <label>Serviço de interesse</label>
-                    <select name="servico" required>
-                        <option value="">Selecione um serviço</option>
-                        <option value="site">Site Institucional</option>
-                        <option value="fotos">Loja Virtual (E-Commerce)</option>
-                        <option value="social">Landing Pages</option>
-                        <option value="social">Blogs & Portais de Conteudo</option>
-                        <option value="social">Cardápio Digital</option>
-                        <option value="social">Sites Personalizados</option>
+                    <select id="servico" name="servico">
+                        <option value="">Selecione o serviço</option>
+                        <option value="sites">Criação de Sites</option>
+                        <option value="automacoes">Automação</option>
                     </select>
+
+                    <select id="plano" name="plano" disabled>
+                        <option value="">Selecione o plano</option>
+                    </select>
+
 
                     <label>Mensagem</label>
                     <textarea name="mensagem" rows="5" placeholder="Como podemos ajudar?"></textarea>
